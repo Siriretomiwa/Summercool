@@ -1,0 +1,9 @@
+# Force text handling to prevent accidental binary classification
+*.css text eol=lf
+*.js text eol=lf
+*.php text eol=lf
+*.md text eol=lf
+
+# Generated archives
+*.zip binary
+*.sha256 text eol=lf
